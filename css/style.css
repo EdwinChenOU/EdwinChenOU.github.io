@@ -32,6 +32,8 @@
     }
 }
 
+.btn {color:var(--clr-light)}
+
 /* general styles */
 
 body {
