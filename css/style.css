@@ -34,11 +34,6 @@
 
 /* general styles */
 
-a:visited {
-    text-decoration: none;
-    color: white;
-}
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
