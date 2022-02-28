@@ -156,4 +156,6 @@ nav { display: none;}
 
 /* my education */
 
-
+.my-degrees {
+    background-color: var(--clr-dark);
+}
