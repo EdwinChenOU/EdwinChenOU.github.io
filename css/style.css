@@ -155,9 +155,26 @@ nav { display: none;}
 .section__title--education::after {
     content: '';
     display: block;
-    width: 3em;
+    width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
     background-color: var(--clr-light);
     opacity: .25;
+}
+
+.degree {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+    .degrees {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .degree + .degree {
+        margin-left: 2em;
+    }
 }
