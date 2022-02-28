@@ -170,11 +170,13 @@ nav { display: none;}
 @media (min-width: 800px) {
     .degrees {
         display: flex;
+        flex-direction: column;
         max-width: 1000px;
         margin: 0 auto;
+        align-items: center;
     }
 
     .degree + .degree {
-        margin-left: 2em;
+        margin-left: 1em;
     }
 }
