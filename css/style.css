@@ -147,7 +147,7 @@ header {
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     text-decoration: none;
 }
 
@@ -156,9 +156,10 @@ header {
 }
 
 .nav-toggle {
-    padding: .25em;
+    padding: .5em;
     background: transparent;
     border: 0;
+    cursor: pointer;
     position: absolute;
     right: 1em;
     top: 1em;
@@ -196,7 +197,7 @@ header {
     background: var(--clr-accent);
     width: 2em;
     height: 3px;
-    border-radius: 2em;
+    border-radius: 1em;
     transition: transform 250ms ease-in-out;
 }
 
