@@ -34,7 +34,7 @@
 
 .btn {color:var(--clr-light)}
 
-/* general styles */
+/* GENERAL STYLES */
 
 body {
     background: var(--clr-light);
@@ -56,7 +56,7 @@ img {
 
 strong {font-weight: bold;}
 
-/* button */
+/* BUTTONS */
 .btn {
     display: inline-block;
     padding: .5em 1.5em;
@@ -74,7 +74,7 @@ strong {font-weight: bold;}
     transform: scale(1.1);
 }
 
-/* text */
+/* TEXT STYLING */
 
 h1,
 h2,
@@ -108,10 +108,10 @@ h3 {font-size: var(--fs-h3)}
     margin-bottom: 1em;
 }
 
-/*header*/
+/* HEADER */
 nav { display: none;}
 
-/* intro section */
+/* INTRO SECTION */
 
 .intro {
     position: relative;
@@ -154,7 +154,7 @@ nav { display: none;}
     }
 }
 
-/* my education */
+/* MY EDUCATION */
 
 .my-degrees {
     background-color: var(--clr-dark);
@@ -233,7 +233,7 @@ nav { display: none;}
     }
 }
 
-/*my work */
+/* MY PROJECTS */
 
 .my-work {
     background-color: var(--clr-dark);
