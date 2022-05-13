@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edwin Chen's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/css/all.css">
+    </head>
+    <body>
+            <header>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#educations" class="nav__link">My Education</a></li>
+                        <li class="nav__item"><a href="index.html#aboutme" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="intro">
+                <h1 class="secition__title section__title--intro">
+                     Machine Learning<strong>Chinese Character Number Recognition</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Jan - May 2022</p>
+                <img src="img/portfolio_excel_dashboard/mock_welcome_page.JPG" alt="databases img" class="intro__img">
+            </section>
+
+            <div class="portfolio-item-individual">
+                <p> 
+                    This machine learning project is the final project for one of my graduate level courses in Machine Learning.
+                    The project is based off of a simple convolutional neural network classic, digit recognition that many people
+                    create as one of their first digit recognition machine learning models. The concept is the same, except that instead
+                    of the normal numbers that one would write, I used used the model to recognize chinese characters instead. 
+                    The reason being is that chinese character uses strokes to write, instead of the regular alphabet that most other languages
+                    use. The strokes in different writing styles can make it more difficult for the model to recognize, and it is an idea that I wanted
+                    to pursue and see what comes of it.
+                </p>
+
+                <p>The anticpated user for this type of dashboard is a management level staff member in the sales department of a grocery chain,
+                    in my case, Waul-mart. A management level staff needs the sales data to be analyzed to find patterns or trends in order to make
+                    decisions regarding the business moving forward. To do this, they will need a dashboard that quickly summarizes the sales data collected
+                    by the store, and this can come in from receipts from transactions. This data contains all the receipts across many stores in the US.
+                    The metrics provided by the dashboard include the total sales to date, transactions, and the average per transaction.
+                </p>
+
+                <img src="/img/portfolio_excel_dashboard/mock_welcome.JPG">
+                <p> The mock welcome page includes two buttons, Exit and Log In. If you click on Exit, it would trigger a VBA command to exit out of the excel workbook.
+                    If you click on Log In, it would trigger a pop up asking for a username and password to access the sales data. The user name is "admin" and 
+                    the password is "password1". The username and password is checked against the only username and password combination in the VBA code. 
+                </p>
+
+                <img src="/img/portfolio_excel_dashboard/mock_data.JPG">
+                <p>
+                    Once the correct username and password combination is entered, you are met with the sales data sheet, which contains information such 
+                    OrderID, Date, customer Name, City and State, as well as what is bought and the quantity for it. There is a 'Go to Dashboard' button on
+                    the top right which will take you to the dashboard page, which will show you all the metrics the dashboard is tracking.
+                </p>
+
+                <img src="/img/portfolio_excel_dashboard/mock_dashboard.JPG">
+                <p>
+                    The dashboard shows Total Sales, Total Transactions, and Average Amount for the data in the Sales Data sheet. On the left hand side,
+                    there are filters for Year and Gener, which will filter the data on the Sales Data sheet and the dashboard will reflect these changes.
+                    You can filter by different years and different geners. Also on this left hand side is the tabs for Dashboard and State. Clicking on these
+                    will take you to the Dashboard sheet or the State sheet, which will show you the total sales for each of the States given the filters you have applied.
+                </p>
+
+                <img src="/img/portfolio_excel_dashboard/mock_state_map.JPG">
+                <p>
+                    The state map shows a heatmap distribution based on the filters you applied on the Year you want to see and the Gender you have selected.
+                </p>
+
+                <p>
+                    The dashboard itself needs lots of improvements, however I think it is a decent application of what I was taught in the class. There were lots of hours
+                    spent on trying to figure out what went wrong in the back-end of the program, learning VBA was a little difficult, however it got easier with time. If you want to
+                    download this excel dashboard to play around, click <a href="https://www.dropbox.com/s/017qg7x6j22sc4y/Excel%20Dashboard?dl=0">here.</a>
+                </p>
+            </div>
+ 
+            <!-- Footer -->
+            <footer class="footer">
+                <a href="mailto:edwin.chen040200@gmail.com" class="footer__link">edwin.chen040200@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/edwinchenou/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+
+            <script src="js/index.js"></script>
+    </body>
+</html>
