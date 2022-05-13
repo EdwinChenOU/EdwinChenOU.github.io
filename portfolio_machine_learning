@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edwin Chen's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/css/all.css">
+    </head>
+    <body>
+            <header>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#educations" class="nav__link">My Education</a></li>
+                        <li class="nav__item"><a href="index.html#aboutme" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="intro">
+                <h1 class="secition__title section__title--intro">
+                    Machine Learning <strong>Chinese Character Number Recognition</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Jan - May 2022</p>
+                <img src="" alt="ml img" class="intro__img">
+            </section>
+
+            <div class="portfolio-item-individual">
+                <p> 
+                </p>
+                <p>
+                </p>
+                <p>
+                </p>
+
+                <img src="">
+        
+                <p>
+
+                </p>
+
+                <!--paper link--><p align="center"><iframe src="" width="640" height="480" allow="autoplay"></iframe></p>
+            </div>
+ 
+            <!-- Footer -->
+            <footer class="footer">
+                <a href="mailto:edwin.chen040200@gmail.com" class="footer__link">edwin.chen040200@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/edwinchenou/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+
+            <script src="js/index.js"></script>
+    </body>
+</html>
