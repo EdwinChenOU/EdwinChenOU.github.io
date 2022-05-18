@@ -43,23 +43,24 @@
                     alphabet that most other languages use. The strokes in different writing styles can make it more difficult for 
                     the model to recognize, and it is an idea that I wanted to pursue and see what comes of it.
                 </p>
+                <img src="/img/portfolio_machine_learning/sample_digits.png">
 
-                <p> The following picture shows some sample characters that are used to train the model. Most handwritten digit 
+                <p> The picture above shows some sample characters that are used to train the model. Most handwritten digit 
                     recognition models uses the handwritten digit dataset from MNIST, but I had curated my own small set of data 
                     to train with. I had used the numbers one through nine, each with around 15 images in different font styles 
                     to factor in variances in the same character. Each image is labeled with the correct classification of the image.
                 </p>
-                <img src="/img/portfolio_machine_learning/sample_digits.png">
+                <img src="/img/portfolio_machine_learning/simple_cnn_model.png">
 
-                <p> The code below contains the model architecture of the simple convolutional neural network. The model takes in 
+                <p> The code above is a simple convolutional neural network. The model takes in 
                     the input image at a size of 224 by 224 pixels into a convolutional 2D layer, followed by a pooling layer, which 
                     is then followed by another convolutional layer before one last pooling layer. The result of this last pooling 
                     layer is flattened, and then gets passed to a fully connected layer, before getting outputted by the last dense 
                     layer with 9 possible classifications.
                 </p>
-                <img src="/img/portfolio_machine_learning/simple_cnn_model.png">
+                <img src="/img/portfolio_machine_learning/convolutional_model_architecture.png">
 
-                <p> Explanation of each layer:
+                <p> Explanation of each layer for simple model:
                     <li>
                         Convlutional Layer: creates a convolution kernal that is wind with layers input which helps produce a tensor of
                         outputs. A kernel is a convolutional matris or filter which can be used for blurring, sharpening, embossing, edge
@@ -71,11 +72,14 @@
                         reduce the spatial size of the input image, so that the number of computations in the network are reduced.
                     </li>
                     <li>
-                        
+                        Dense layer: It is a regular densely-connected neural network layer, meaning each neuron in the dense layer receives input 
+                        from all neurons of its previous layer. It takes the input from the previous layer and adds a bias before putting it through 
+                        an activation function. The first dense layer connects to the second dense layer, which then outputs one of the nine classifications
+                        as an output.
                     </li>
                 </p>
 
-                <img src="/img/portfolio_machine_learning/convolutional_model_architecture.png">
+                <img src="">
                 <p>
                     The dashboard shows Total Sales, Total Transactions, and Average Amount for the data in the Sales Data sheet. On the left hand side,
                     there are filters for Year and Gener, which will filter the data on the Sales Data sheet and the dashboard will reflect these changes.
@@ -83,7 +87,7 @@
                     will take you to the Dashboard sheet or the State sheet, which will show you the total sales for each of the States given the filters you have applied.
                 </p>
 
-                <img src="/img/portfolio_excel_dashboard/mock_state_map.JPG">
+                <img src="">
                 <p>
                     The state map shows a heatmap distribution based on the filters you applied on the Year you want to see and the Gender you have selected.
                 </p>
