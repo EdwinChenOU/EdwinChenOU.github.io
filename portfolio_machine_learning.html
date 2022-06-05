@@ -56,36 +56,21 @@
 
                 <b style="font-size: 30px"> Neural Network Model Architecture </b>
 
-                <p><i>Simple Convolution Neural Network Model</i></p>
-                <img src="/img/portfolio_machine_learning/simple_cnn_model.png">
-                <p> The code above is a simple convolutional neural network. The model takes in 
-                    the input image at a size of 224 by 224 pixels into a convolutional 2D layer, followed by a pooling layer, which 
+                <p><b>Simple Convolution Neural Network Model</b></p>
+
+                <img src="/img/portfolio_machine_learning/convolutional_model_architecture.png">
+                <p> The chart above is a simple convolutional neural network. The model takes in 
+                    the input image into a convolutional 2D layer, followed by a pooling layer, which 
                     is then followed by another convolutional layer before one last pooling layer. The result of this last pooling 
                     layer is flattened, and then gets passed to a fully connected layer, before getting outputted by the last dense 
                     layer with 9 possible classifications.
                 </p>
 
-                <img src="/img/portfolio_machine_learning/convolutional_model_architecture.png">
-                <p> Explanation of each layer for simple model:
-                    <li>
-                        <b>Convolutional Layer</b>: creates a convolution kernal that is wind with layers input which helps produce a 
-                        tensor of outputs. A kernel is a convolutional matris or filter which can be used for blurring, sharpening, 
-                        embossing, edge detection, and more by doing a convolution between a kernel and an image.
-                    </li>
-                    <li>
-                        <b>Pooling layer</b>: a MaxPool2D layer downsamples the input along its spatial dimensions by taking the maximum 
-                        value over an input window for each chanel of the input. the window is shifted by strides along each dimension. It 
-                        progressively reduce the spatial size of the input image, so that the number of computations in the network are reduced.
-                    </li>
-                    <li>
-                        <b>Dense layer</b>: It is a regular densely-connected neural network layer, meaning each neuron in the dense layer receives 
-                        input from all neurons of its previous layer. It takes the input from the previous layer and adds a bias before putting it through 
-                        an activation function. The first dense layer connects to the second dense layer, which then outputs one of the nine classifications
-                        as an output.
-                    </li>
+                <img src="/img/portfolio_machine_learning/simple_cnn_model.png">
+                <p> The code above is the simple convolutional neural network.
                 </p>
 
-                <p><i>Complex and Conclusion of Convolutional Neural Network Model</i></p>
+                <p><b>Complex and Conclusion of Convolutional Neural Network Model</b></p>
                 <img src="/img/portfolio_machine_learning/vgg16_model_architecture.png">
                 <p>
                     The code above shows a modified version of the VGG16 model architecture. The layers are the same as the VGG16 model for ImageNet,
@@ -95,7 +80,7 @@
                     and pooling layers help greatly with more complex images like identifying scenery.
                 </p>
 
-                <b style="font-size: 30px"> Comparison of Models </b>
+                <p><b>Comparison of Models</b></p>
 
                 <img src="/img/portfolio_machine_learning/model_results.png">
                 <p>
