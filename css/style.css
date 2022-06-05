@@ -56,6 +56,7 @@ section {
 img {
     display: block;
     max-width: 100%;
+    box-shadow: var(--bs);
 }
 
 strong {font-weight: bold;}
