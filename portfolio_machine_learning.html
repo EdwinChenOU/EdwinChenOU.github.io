@@ -74,18 +74,20 @@
                 <img src="/img/portfolio_machine_learning/vgg16_model_architecture.png">
                 <p>
                     The code above showcases a customized version of the VGG16 model architecture. The architecture closely resembles the VGG16 model 
-                    used for ImageNet, however, it has been adapted to match the dimensions of the curated dadtaset. The 
+                    used for ImageNet, however, it has been adapted to match the dimensions of the curated dadtaset. The model is more sophisticated
+                    than the previous m odel, featuring larger kernels, additional nodes, and an altered arrangement of convolutional and pooling layers.
+                    The enhanced inputs and additional convolutiona layers allow for the moddel to extract more features from the images it processes. These
+                    added convolutional and pooling lyaers significantly improve the model's ability to identify complex images, such as landscapes.
                 </p>
 
                 <p><b>Comparison of Models</b></p>
 
                 <img src="/img/portfolio_machine_learning/model_results.png">
                 <p>
-                    The model results shows that the simple convolutional model is more accurate in validating the dataset comapred to the more advanced VGG16 
-                    model. The precision and the recall scores for both models both support the fact that the more simple model is better at predicting the images
-                    than the more advanced model. A probable reason for this is that the more advanced model picked out more features of the chinese characters than 
-                    necessary and it caused the model to be wrong in its predictions. The "features" were likely to be minor differences in the font style of the 
-                    written characters that the model deemed them to be classed differently.
+                    The results of the model evaluation indicate that a simpler convolutional neural network model outperforms a modified VGG16 architecture 
+                    in terms of accuracy in validating the dataset. The precision and recall scores support the fact that the simpler model has superior 
+                    performance in image classification compared to the more complex VGG16 model. The reason behind this discrepancy may be attributed to the fact 
+                    that the advanced model overfits the data by capturing minor variations in font style, leading to incorrect predictions.
                 </p>
 
                 <p align="center"><object data="https://drive.google.com/file/d/1J6_dpbI8TFzG0xOOPzq08TJu8pdPaaWV/preview" width="640" height="800"></object></p>
