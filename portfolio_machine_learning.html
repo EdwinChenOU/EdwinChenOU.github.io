@@ -38,20 +38,20 @@
 
                 <b style="font-size: 30px">Introduction</b>
 
-                <p> This machine learning project is the final project for my graduate level courses in Machine Learning.
-                    The project is based off of a simple convolutional neural network classic, handwritten digit recognition, 
-                    that many people create as one of their first digit recognition machine learning models. The concept is the 
-                    same, except that instead of the normal numbers that one would write, I used used the model to recognize chinese 
-                    characters instead. The reason being is that chinese character uses strokes to write, instead of the regular 
-                    alphabet that most other languages use. The strokes in different writing styles can make it more difficult for 
-                    the model to recognize, and it is an idea that I wanted to pursue and see what comes of it.
+                <p> 
+                    This machine learning project entails the development of a Convolutional Neural Network (CNN) model for 
+                    handwritten digit recognition. This model represents a classic example in the field of machine learning 
+                    and is a common starting point for many aspiring machine learning practitioners. However, instead of utilizing 
+                    the covnentional numerical digits, the model is trained to recognize Chinese characters. The complexity of recognizing 
+                    Chinese characters, with its written strokes and various styles, aims to provide a challenge for myself. 
                 </p>
 
                 <img src="/img/portfolio_machine_learning/sample_digits.png">
-                <p> The picture above shows some sample characters that are used to train the model. Most handwritten digit 
-                    recognition models uses the handwritten digit dataset from MNIST, but I had curated my own small set of data 
-                    to train with. I had used the numbers one through nine, each with around 15 images in different font styles 
-                    to factor in variances in the same character. Each image is labeled with the correct classification of the image.
+                <p> 
+                    The image depicts a set of sample characters utilized for training the model. Unlike typical handwritten digit recognition 
+                    models that rely on the MNIST dataset, this project utilized a customized dataset created by myself. THe dataset included 
+                    characters one through nine, each with approximately 15 images in diverse font styles to account for variations in the same 
+                    character. Each image is annotated with its corresponding classification.
                 </p>
 
                 <b style="font-size: 30px"> Neural Network Model Architecture </b>
@@ -59,11 +59,11 @@
                 <p><b>Simple Convolution Neural Network Model</b></p>
 
                 <img src="/img/portfolio_machine_learning/convolutional_model_architecture.png">
-                <p> The chart above is a simple convolutional neural network. The model takes in 
-                    the input image into a convolutional 2D layer, followed by a pooling layer, which 
-                    is then followed by another convolutional layer before one last pooling layer. The result of this last pooling 
-                    layer is flattened, and then gets passed to a fully connected layer, before getting outputted by the last dense 
-                    layer with 9 possible classifications.
+                <p>
+                    The chart represents a basic Convolutional Neural Network model. The input i mage is processed through a 2D convolutional
+                    layer, followed by a pooling layer, then another convolutional layer and finally another pooling layer. The output of the 
+                    final pooling layer is flattened and then fed into a fully-connected layer before being outputted by the final dense layer 
+                    with nine potential classifications.
                 </p>
 
                 <img src="/img/portfolio_machine_learning/simple_cnn_model.png">
@@ -73,11 +73,8 @@
                 <p><b>Complex and Conclusion of Convolutional Neural Network Model</b></p>
                 <img src="/img/portfolio_machine_learning/vgg16_model_architecture.png">
                 <p>
-                    The code above shows a modified version of the VGG16 model architecture. The layers are the same as the VGG16 model for ImageNet,
-                    however, it has been modified to fit the dimensions of the dataset I have created. The model itself is more complex than the previous
-                    model, with bigger kernels, more nodes, and different orientation of convolution and pooling layers. The larger inputs and the additional
-                    convolutional layers allow for the model to pick out more features to identify the images the model takes in. These additional convolutional
-                    and pooling layers help greatly with more complex images like identifying scenery.
+                    The code above showcases a customized version of the VGG16 model architecture. The architecture closely resembles the VGG16 model 
+                    used for ImageNet, however, it has been adapted to match the dimensions of the curated dadtaset. The 
                 </p>
 
                 <p><b>Comparison of Models</b></p>
